@@ -1,137 +1,115 @@
-Company Revenue Analysis – Power BI Dashboard
-Project Overview
+# Company Revenue Analysis Dashboard
+
+##  Project Overview
+
+The **Company Revenue Analysis Dashboard** is an interactive Business Intelligence solution built using **Microsoft Power BI**.
+
+This project transforms raw transactional sales data into meaningful insights through data cleaning, modeling, DAX calculations, and interactive visualizations.
 
-This project presents an interactive Revenue Analysis Dashboard developed using Microsoft Power BI to analyze the financial performance of an electronics company.
+It provides a 360° overview of revenue performance, sales efficiency, product contribution, and regional distribution.
+
+## Business Objectives
+
+The dashboard answers the following business questions:
+
+- What is the total revenue generated?
+- In how many countries does the company operate?
+- How many sales representatives are active?
+- What is the total number of transactions?
+- What are the monthly revenue trends?
+- How is revenue distributed by region?
+- Who are the top-performing sales reps?
+- How does performance vary by quarter?
+- What is the sales distribution by gender?
+- Which products contribute the most to revenue?
+
+##  Dataset Information
+ 
+**File:** Revenue Dataset.csv  
+**Type:** Financial & Sales Data  
+
+The dataset includes:
+
+- Product details  
+- Sales representative information  
+- Country and regional data  
+- Transaction dates  
+- Revenue values  
+- Customer demographics  
+
+## Tools & Technologies
+
+- Microsoft Power BI  
+- Power Query  
+- DAX (Data Analysis Expressions)  
+- Data Modeling  
+- CSV Dataset  
+
+## Project Workflow
+
+### 1. Data Cleaning
+- Removed duplicates  
+- Handled missing values  
+- Standardized formats  
+
+### 2. Data Modeling
+- Created relationships between tables  
+- Built optimized schema  
+
+### 3. KPI Development
+Created DAX measures for:
+- Total Revenue  
+- Total Transactions  
+- Revenue per Month  
+- Quarterly Performance  
+- Top Sales Representative Ranking  
+
+### 4. Visualization
+- KPI Cards  
+- Line Charts (Monthly Trends)  
+- Bar Charts (Region & Product Analysis)  
+- Pie Charts (Gender Distribution)  
+- Ranking Tables  
+
+## Dashboard Features
+
+✔ Interactive Filters (Region, Date, Product)  
+✔ Drill-down Capability  
+✔ Quarterly Comparison  
+✔ Revenue Trend Monitoring  
+✔ Performance Benchmarking  
+
+##  Project Structure
+
+Company-Revenue-Analysis/
+│
+├── Revenue Dataset.csv
+├── Company Revenue Analysis.pbix
+├── README.md
+└── images/
+
+##  How to Use
+
+1. Download the `.pbix` file  
+2. Open it in Microsoft Power BI Desktop  
+3. Refresh the dataset if required  
+4. Explore interactive visuals  
+
+## Key Insights
+
+- Identified high-performing regions  
+- Determined top revenue-generating products  
+- Evaluated seasonal revenue trends  
+- Compared quarterly business growth  
+- Ranked sales representatives by performance  
+
+##  Skills Demonstrated
+
+- Business Intelligence Reporting  
+- Data Cleaning & Transformation  
+- DAX Calculations  
+- KPI Development  
+- Analytical Thinking  
+- Data Storytelling  
+- Professional Documentation  
 
-The dashboard transforms raw sales data into meaningful business insights by applying data modeling, transformation, and visualization techniques. It enables stakeholders to monitor revenue trends, evaluate sales performance, and identify key growth opportunities.
-
-Dataset Information
-
-File: Revenue Dataset.csv
-
-Domain: Sales & Financial Analytics
-
-The dataset contains detailed transactional and financial records, including:
-
-Product information
-
-Store and country details
-
-Sales representative data
-
-Customer demographics
-
-Transaction dates
-
-Revenue metrics
-
-Business Problem Statement
-
-The primary objective of this dashboard is to provide actionable insights into company performance by answering the following business questions:
-
-What is the total revenue generated across all products and stores?
-
-In how many countries does the company operate?
-
-How many sales representatives are active within the organization?
-
-What is the total number of transactions recorded?
-
-What are the monthly revenue trends?
-
-How is revenue distributed across different regions?
-
-Who are the top-performing sales representatives?
-
-How does company performance vary across quarters?
-
-What is the sales distribution by gender?
-
-Which products contribute the most to total revenue?
-
-Tools & Technologies Used
-
-Microsoft Power BI
-
-Power Query (Data Cleaning & Transformation)
-
-DAX (Data Analysis Expressions)
-
-Data Modeling
-
-KPI Indicators
-
-Interactive Visualizations
-
-Dashboard Features
-Revenue Performance Monitoring
-
-Total Revenue KPI
-
-Monthly Revenue Trend Analysis
-
-Quarterly Performance Comparison
-
-Sales Insights
-
-Revenue by Region
-
-Revenue by Product Category
-
-Top Sales Representatives Ranking
-
-Total Transactions Overview
-
-Customer & Demographic Analysis
-
-Sales Distribution by Gender
-
-Country-wise Market Presence
-
-Interactive Filtering
-
-Dynamic slicers for region, product, and time
-
-Drill-down functionality for detailed insights
-
-key Insights Generated
-
-Identified top revenue-generating products and regions
-
-Analyzed seasonal revenue trends
-
-Evaluated individual sales representative performance
-
-Compared quarterly business growth patterns
-
-Assessed customer demographic contribution to sales
-
-Business Impact
-
-This dashboard enables:
-
-Data-driven decision making
-
-Performance benchmarking
-
-Revenue trend forecasting
-
-Strategic sales planning
-
-Improved market analysis
-
-Conclusion
-
-The Company Revenue Analysis Dashboard demonstrates strong skills in:
-
-Data transformation
-
-Business intelligence reporting
-
-KPI development
-
-Analytical storytelling
-
-Professional documentation
-
-This project showcases the ability to convert raw data into structured, interactive, and decision-support dashboards that deliver measurable business value.
